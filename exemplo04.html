@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo04</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+       header,footer{
+        background-color: aquamarine;
+       }
+       section {
+        background-color: antiquewhite;
+       }
+       .pancake-stack{
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+       }
+       .pancake-stack > section{
+            overflow: auto;
+       }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+        <h1>
+            Exemplo04: Pancake Stack
+        </h1>
+        </header>
+        <article class="pancake-stack">
+            <ul>
+                <li>primeiro</li>
+                <li>segundo</li>
+                <li>terceiro</li>
+                <li>quarto</li>
+                <li>quinto</li>
+            </ul>
+            <section>
+                <h2>Texto</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, dignissimos sapiente
+                    impedit molestias aliquam incidunt illo accusamus at consectetur fuga, commodi quos eligendi quasi
+                    esse tempora adipisci? Corporis, atque.</p>
+                <p>Nesciunt incidunt eius quae adipisci perferendis vel architecto voluptate. Reiciendis, totam, libero
+                    veritatis repellendus animi quod aut ullam cumque rem ad blanditiis ut vero doloribus quaerat! Qui,
+                    quos. Totam, voluptatum.</p>
+                <p>Omnis sint beatae reiciendis ipsum, ab ex nam iste esse excepturi quas minima. Harum autem vero
+                    beatae amet sequi perferendis, unde, earum reiciendis sit explicabo doloremque cumque, error odio
+                    voluptatum.</p>
+            </section>
+            <footer>
+                &COPY; 2026 - DCC202 - UFJF
+            </footer>
+        </article>
+    </main>
+</body>
+
+</html>

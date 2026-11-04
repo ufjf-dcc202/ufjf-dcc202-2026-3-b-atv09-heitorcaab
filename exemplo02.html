@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo02</title>
+    <link rel="stylesheet" href="estilo.css">
+<style>
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            border: 1px solid blue;
+            background-color: lightblue;
+            padding: 0.5 px;
+        }
+        .deconstructed-pancake{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .deconstructed-pancake > * {
+            /*flex-grow: 1;
+            flex-shrink: 0px;
+            flex-basis: 100px;*/
+            flex: 1 1 100px;
+        }
+</style>
+</head>
+<body>
+    <main>
+        <h1>
+            Exemplo02: Deconstructed Pancake
+        </h1>
+        <article>
+            <ul class="deconstructed-pancake">
+                <li>primeiro</li>
+                <li>segundo</li>
+                <li>terceiro</li>
+                <li>quarto</li>
+                <li>quinto</li>
+            </ul>
+        </article>
+    </main>
+</body>
+</html>

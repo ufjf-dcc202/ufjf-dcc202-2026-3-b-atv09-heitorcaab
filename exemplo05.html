@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo05</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+       header{
+        background-color: rgb(125, 112, 173);
+       }
+       footer{
+        background-color: rgb(34, 172, 126);
+       }
+       section {
+        background-color: rgb(64, 92, 70);
+       }
+       li{
+            border: 1px solid blue;
+            background-color: lightblue;
+            padding: 0.5 px;
+        }
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .holy-grail{
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            grid-template-columns: auto 1fr auto;
+        }
+        .holy-grail>header,footer{
+            grid-column: 1 / 4;
+        }
+        .holy-grail>section{
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+        <h1>
+            Exemplo05: Holy Grail
+        </h1>
+        </header>
+         <nav>
+            <ul>
+                <li>primeiro</li>
+                <li>segundo</li>
+                <li>terceiro</li>
+                <li>quarto</li>
+                <li>quinto</li>
+            </ul>
+         </nav>
+            <section>
+                <h2>Texto</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, dignissimos sapiente
+                    impedit molestias aliquam incidunt illo accusamus at consectetur fuga, commodi quos eligendi quasi
+                    esse tempora adipisci? Corporis, atque.</p>
+                <p>Nesciunt incidunt eius quae adipisci perferendis vel architecto voluptate. Reiciendis, totam, libero
+                    veritatis repellendus animi quod aut ullam cumque rem ad blanditiis ut vero doloribus quaerat! Qui,
+                    quos. Totam, voluptatum.</p>
+                <p>Omnis sint beatae reiciendis ipsum, ab ex nam iste esse excepturi quas minima. Harum autem vero
+                    beatae amet sequi perferendis, unde, earum reiciendis sit explicabo doloremque cumque, error odio
+                    voluptatum.</p>
+            </section>
+            <aside>
+                <ul>
+                <li>primeiro</li>
+                <li>segundo</li>
+                <li>terceiro</li>
+                <li>quarto</li>
+                <li>quinto</li>
+                </ul>
+            </aside>
+            <footer>
+                &COPY; 2026 - DCC202 - UFJF
+            </footer>
+        </article>
+    </main>
+</body>
+
+</html>
